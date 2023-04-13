@@ -1,0 +1,111 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3d51a2;
+}
+
+.background1{
+  z-index: -2;
+  position: absolute;
+  top:-499px;
+  left:-320px;
+}
+
+.background2{
+  z-index: -22;
+  position: absolute;
+  bottom:-620px;
+  right:-350px;
+}
+@media(max-width:375px){
+  .background2{
+    display: none;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height:100%;
+  margin: 100px auto;
+  overflow: hidden;
+}
+
+.container .crd {
+  width: 400px;
+  height: 425px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Kumbh Sans';
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 4px 10px 4px rgba(4, 35, 36, 0.37);
+}
+.container .crd .backgr img {
+  margin: 0;
+  padding: 0;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 400px;
+  height: 170px;
+}
+
+.container .crd .victor {
+  position: relative;
+  top: -45px;
+  border-radius: 50px;
+  outline: 5px solid white;
+}
+
+.container .crd .name {
+  position: relative;
+  top: -20px;
+}
+
+.container .crd .name .user {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.container .crd .name .user span {
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  padding-left: 5px;
+}
+
+.container .crd .name .city {
+  color: hsl(227, 10%, 46%);
+  font-size: 15px;
+}
+
+.container .crd .info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  border-top: 1px solid hsl(227, 10%, 46%);
+}
+
+.container .crd .info .number {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.container .crd .info .kind {
+  margin-top: 5px;
+  color: hsl(227, 10%, 46%);
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+}
+
